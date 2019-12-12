@@ -63,11 +63,11 @@ def loadDamageModel():
 
 
 def loadFrontModel():
-    json_file = open('Front.json','r')
+    json_file = open('front.json','r')
     loaded_model_json = json_file.read()
     json_file.close()
     loaded_model = model_from_json(loaded_model_json)
-    loaded_model.load_weights("Front.h5")
+    loaded_model.load_weights("front.h5")
     
     #compile and evaluate loaded model
     

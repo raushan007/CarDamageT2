@@ -12,3 +12,4 @@ pandas>=0.19
 h5py
 tensorflow
 gevent
+pillow
